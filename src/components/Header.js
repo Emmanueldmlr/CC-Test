@@ -1,8 +1,5 @@
 import React from 'react'
 
-import {Link} from 'react-router-dom';
-
-
 const Header = () => {
 
     return (
@@ -20,7 +17,7 @@ const Header = () => {
 						<div id="logo">
 							<h4>
 
-                                <a href="#" title="Costy" style={{color: "#ff7b79 !important"}}>C&C-Test</a>
+                                <a href="/" title="Costy" style={{color: "#ff7b79 !important"}}>C&C-Test</a>
                                 
                             </h4>
 						</div>
@@ -32,7 +29,7 @@ const Header = () => {
 
 								<li>
                                     <span>
-                                        <a href="#">Home</a>
+                                        <a href="/">Home</a>
                                     </span>
                                 </li>
 							
